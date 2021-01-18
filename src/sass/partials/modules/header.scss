@@ -13,6 +13,7 @@
     padding: $unit-xs;
     font-weight: bold;
     color: $color-primary;
+    font-size: $typo-large-size;
   }
 
   .m-header__navigation {
@@ -24,7 +25,14 @@
         margin-right: $unit-xs;
 
         a {
+          transition: all 0.2s;
           color: $color-foreground;
+          text-decoration: none;
+
+          &:hover {
+            color: $color-primary;
+            text-decoration: underline;
+          }
         }
       }
     }
