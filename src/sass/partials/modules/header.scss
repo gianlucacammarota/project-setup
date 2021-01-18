@@ -1,0 +1,32 @@
+.m-header {
+  display: flex;
+  align-items: center;
+  background-color: $color-background;
+  box-sizing: border-box;
+  padding: $unit-xs;
+  color: $color-foreground;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: $color-primary;
+
+  .m-header__logo {
+    padding: $unit-xs;
+    font-weight: bold;
+    color: $color-primary;
+  }
+
+  .m-header__navigation {
+    padding: $unit-xs;
+
+    ul {
+      li {
+        display: inline-block;
+        margin-right: $unit-xs;
+
+        a {
+          color: $color-foreground;
+        }
+      }
+    }
+  }
+}
