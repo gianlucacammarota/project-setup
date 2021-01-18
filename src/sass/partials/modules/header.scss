@@ -18,6 +18,7 @@
 
   .m-header__navigation {
     padding: $unit-xs;
+    display: none;
 
     ul {
       li {
@@ -42,6 +43,10 @@
           }
         }
       }
+    }
+
+    &.visible {
+      display: block;
     }
   }
 }

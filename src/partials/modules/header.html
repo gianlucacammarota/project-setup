@@ -3,7 +3,7 @@
     <h1>Logo</h1>
   </div>
 
-  <nav class="m-header__navigation">
+  <nav class="m-header__navigation visible">
     <ul>
       <li class="active">
         <a href="#">Home</a>
@@ -19,4 +19,12 @@
       </li>
     </ul>
   </nav>
+
+  <button
+    class="js-toggle"
+    data-toggle-selector=".m-header__navigation"
+    data-toggle-class="visible"
+  >
+    Toggle
+  </button>
 </header>
