@@ -1,29 +1,31 @@
 .m-header {
+  position: relative;
   display: flex;
-  align-items: center;
+  align-items:center;
   background-color: $color-background;
   box-sizing: border-box;
   padding: $unit-xs;
   color: $color-foreground;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: $color-primary;
+  background: rgb(255, 255, 255);
 
   .m-header__logo {
-    padding: $unit-xs;
-    font-weight: bold;
-    color: $color-primary;
-    font-size: $typo-large-size;
+    position: absolute;
+    left: 0;
+    padding: $unit-s;
   }
 
   .m-header__navigation {
     padding: $unit-xs;
-    display: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
 
     ul {
+      display: inline-block;
       li {
         display: inline-block;
-        margin-right: $unit-xs;
+        margin-right: $unit-s;
 
         a {
           transition: all 0.2s;
@@ -31,15 +33,13 @@
           text-decoration: none;
 
           &:hover {
-            color: $color-primary;
-            text-decoration: underline;
+            color: grey;
           }
         }
 
         &.active {
           a {
-            color: $color-primary;
-            text-decoration: underline;
+            color: grey;
           }
         }
       }
