@@ -6,19 +6,19 @@
   box-sizing: border-box;
   padding: $unit-xs;
   color: $color-foreground;
-  background: rgb(255, 255, 255);
+  background: $color-primary;
 
   .m-header__logo {
-    position: absolute;
-    left: 0;
+    position: relative;
     padding: $unit-s;
+    align-items: center;
   }
 
   .m-header__navigation {
     padding: $unit-xs;
     display: block;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     flex-grow: 1;
 
     ul {

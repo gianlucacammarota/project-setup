@@ -1,0 +1,16 @@
+.m-headline {
+    color: $color-foreground;
+    text-align: center;
+    font-size: $typo-h1;
+    padding-top: $unit-l;
+    font-weight: bold;
+}
+
+.m-text {
+    color: $color-foreground;
+    text-align: left;
+    padding: $unit-l;
+    padding-left: 200px;
+    padding-right: 200px;
+    size: $typo-text;
+}
