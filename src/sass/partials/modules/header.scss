@@ -1,23 +1,31 @@
 .m-header {
   position: relative;
   display: flex;
-  align-items:center;
+  align-items: left;
   background-color: $color-background;
   box-sizing: border-box;
   padding: $unit-xs;
   color: $color-foreground;
-  background: $color-primary;
+  background: white;
+  height: 70px;
 
   .m-header__logo {
     position: relative;
     padding: $unit-s;
-    align-items: center;
+  }
+  
+  .m-header_name {
+    color: $color-foreground;
+    font-size: $typo-h1;
+    font-weight: bold;
+    padding-top: 26px;
   }
 
   .m-header__navigation {
-    padding: $unit-xs;
+    padding-right: 400px;
+    padding-top: 38px;
     display: block;
-    font-weight: bold;
+    font-weight: light;
     text-align: right;
     flex-grow: 1;
 
@@ -33,13 +41,13 @@
           text-decoration: none;
 
           &:hover {
-            color: grey;
+            color: rgb(116, 176, 255);
           }
         }
 
         &.active {
           a {
-            color: grey;
+            color: $color-primary;
           }
         }
       }

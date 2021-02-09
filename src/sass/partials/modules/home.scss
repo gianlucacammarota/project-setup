@@ -1,16 +1,29 @@
-.m-headline {
-    color: $color-foreground;
-    text-align: center;
-    font-size: $typo-h1;
-    padding-top: $unit-l;
-    font-weight: bold;
-}
+.m-body-home {
+    align-items: center;
 
-.m-text {
+
+    .m-image {
+        padding-top: $unit-m;
+        text-align: center;
+    }
+
+    .m-headline {
     color: $color-foreground;
     text-align: left;
-    padding: $unit-l;
+    font-size: $typo-h1;
+    padding-top: $unit-l;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+    }
+
+    .m-text {
+    color: $color-foreground;
+    text-align: left;
+    padding-top: $unit-s;
     padding-left: 200px;
     padding-right: 200px;
     size: $typo-text;
+    }
+
 }
