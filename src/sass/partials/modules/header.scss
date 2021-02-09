@@ -21,8 +21,21 @@
     padding-top: 26px;
   }
 
+  .m-header_socialmedia {
+    padding-right: $unit-m;
+    padding-top: 30px;
+
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        margin-right: $unit-s;
+      }
+    }
+  }
+
   .m-header__navigation {
-    padding-right: 400px;
+    padding-right: 100px;
     padding-top: 38px;
     display: block;
     font-weight: light;
