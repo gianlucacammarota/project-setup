@@ -4,3 +4,59 @@
     text-align: center;
     padding-bottom: 10vh;
 }
+
+.m-contact-informations {
+    font-size: $typo-h3;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.m-contact-socialmedia {
+    padding-top: 5vh;
+    display: block;
+    font-weight: light;
+    text-align: center;
+    flex-grow: 1;
+
+    ul {
+      display: inline-block;
+      flex: auto;
+      padding-bottom: 40vh;
+      li {
+        display: inline-block;
+        width: 10vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+      }
+
+        #instagram {
+            color: white;
+            background-color: #FA49B3;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+
+        #facebook {
+            color: white;
+            background-color: #3B5998;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+
+        #twitter {
+            color: white;
+            background-color: #00ACEE;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+        }
+    }
+}
