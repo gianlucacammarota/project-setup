@@ -1,52 +1,53 @@
-.m-header {
-  position: relative;
-  display: flex;
-  align-items: left;
-  background-color: $color-background;
-  box-sizing: border-box;
-  padding: $unit-xs;
-  color: $color-foreground;
-  background: white;
-  height: 70px;
-
-  #m-header__logo {
-    position: relative;
-    padding: 2vh;
-  }
-  
-  .m-header_name {
+#m-work-headline {
+    font-size: $typo-large-size;
     color: $color-foreground;
-    font-size: 4vh;
+    text-align: center;
     font-weight: bold;
-    padding-top: 26px;
-  }
+    padding-top: 10vh;
+}
 
-  .m-header_socialmedia {
-    padding-right: $unit-l;
-    padding-top: 30px;
-
-    ul {
-      display: inline-block;
-      li {
-        display: inline-block;
-        margin-right: $unit-s;
-      }
-    }
-  }
-
-  .m-header__navigation {
-    padding-right: 100px;
-    padding-top: 38px;
+.m-work-boxes {
+    padding-top: 30vh;
     display: block;
     font-weight: light;
-    text-align: right;
+    text-align: center;
     flex-grow: 1;
 
     ul {
       display: inline-block;
       li {
         display: inline-block;
-        margin-right: $unit-m;
+        padding-right: 4vw;
+        padding-left: 4vw;
+
+        a {
+          color: grey;
+          background-color: grey;
+          padding-top: 20vh;
+          padding-right: 10vh;
+
+        }
+      }
+    }
+
+    &.visible {
+      display: block;
+    }
+}
+
+.m-work-projects {
+    padding-top: 2vh;
+    display: block;
+    font-weight: light;
+    text-align: center;
+    flex-grow: 1;
+
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        padding-right: 15vh;
+        padding-left: 15vh;
 
         a {
           transition: all 0.2s;
@@ -69,5 +70,4 @@
     &.visible {
       display: block;
     }
-  }
 }

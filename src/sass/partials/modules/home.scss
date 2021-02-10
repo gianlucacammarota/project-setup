@@ -1,29 +1,65 @@
 .m-body-home {
-    align-items: center;
 
 
-    .m-image {
+    .m-home-image {
         padding-top: $unit-m;
         text-align: center;
     }
+    
+    .m-all-text {
+        position: absolute;
+        bottom: 8vh;
+        padding-right: 70vh;
+        padding-left: 8vh;
+        display: block;
+        text-align: left;
 
-    .m-headline {
-    color: $color-foreground;
-    text-align: left;
-    font-size: $typo-h1;
-    padding-top: $unit-l;
-    padding-left: 200px;
-    padding-right: 200px;
-    font-weight: bold;
+        .m-home-headline {
+            display: inline-block;
+            color: white;
+            font-size: 2.8vw;
+            padding-bottom: $unit-xs;
+            font-weight: bold;
+        }
+
+        .m-home-text {
+            display: inline-block;
+            color: white;
+            font-size: 1.2vw;
+            padding-bottom: $unit-s;
+            font-weight: lighter;
+        }
+
+        .m-home-button {
+            display: inline-block;
+            color: $color-primary;
+            font-size: 1vw;
+            font-weight: light;
+            border-width: 1px;
+            border-style: solid;
+            padding: 6px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+
+            a {
+                transition: all 0.2s;
+                color: $color-primary;
+                text-decoration: none;
+      
+                &:hover {
+                  color: rgb(116, 176, 255);
+                }
+              }
+      
+              &.active {
+                a {
+                  color: $color-primary;
+                }
+            }
+            
+        }
     }
-
-    .m-text {
-    color: $color-foreground;
-    text-align: left;
-    padding-top: $unit-s;
-    padding-left: 200px;
-    padding-right: 200px;
-    size: $typo-text;
-    }
-
+    
 }

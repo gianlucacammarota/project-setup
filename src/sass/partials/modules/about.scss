@@ -1,0 +1,22 @@
+.m-body-about {
+    text-align: center;
+
+    #m-about-headline {
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+        font-size: $typo-large-size;
+        font-weight: bold;
+    }
+
+    .m-about-text {
+        padding-bottom: 30vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        font-size: $typo-h2;
+        text-align: left;
+    }
+
+    .initial-letter {
+        font-size: $typo-large-size;
+    }
+}
