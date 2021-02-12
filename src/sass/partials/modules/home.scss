@@ -51,15 +51,13 @@
                 &:hover {
                   color: rgb(116, 176, 255);
                 }
-              }
+            }
       
               &.active {
                 a {
                   color: $color-primary;
                 }
-            }
-            
+              } 
         }
-    }
-    
+    }   
 }
